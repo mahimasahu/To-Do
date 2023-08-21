@@ -6,13 +6,13 @@ POST http://localhost:3001/todo/new
 content-type: application/json
 
 {
-    "text":"complete Projects"
+    "text":"Sleep Early"
 }
 
 ###
 
-DELETE http://localhost:3001/todo/delete/64e31c118d7f700a367c20d5
+DELETE http://localhost:3001/todo/delete/64e31c488d7f700a367c20da
 
 ###
 
-PUT http://localhost:3001/todo/complete/64e30d7e17874146b656e9c4
+GET http://localhost:3001/todo/complete/64e30d7e17874146b656e9c4
